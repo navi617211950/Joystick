@@ -2,6 +2,7 @@
 
 Point Circle::getCenter()
 {
+    cout << "Circle::getCenter() started" << endl;
     return this->c_point;
 }
 

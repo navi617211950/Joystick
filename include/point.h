@@ -20,6 +20,11 @@ public:
      */
     Point();
 
+    /// @brief 拷贝构造函数
+    /// @param p 拷贝源
+    Point(const Point &p);
+
+
     /// @brief 析构函数
     /// 没有返回值，不需要写void
     /// 函数名和类名一致，然后最前面添加 ~ 符号
