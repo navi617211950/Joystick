@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
      * 显示调用构造函数, Person(10) 相当于是一个匿名对象
      * 当前行执行结束后，系统会自动回收掉匿名对象
      */
-    Person p2 = Person("zhangsi");
+    Person p2 = Person("zhangsi", 12);
 
     //拷贝构造函数
     Person p3 = Person(p2);
@@ -36,8 +36,8 @@ int main(int argc, char const *argv[])
     //Person(p3)
     
     //隐式转换法 但是Person p4 = "张三"语法校验不通过，"张三"会被理解为const char[]类型，找不到对应的构造函数
-    string name =  "zhangsan";
-    Person p4 =name;
+    // 隐式转换法中的拷贝构造直接通过等号赋值即可
+    Person p4 = {"zhangsan", 12};
     
     return 0;
 }
