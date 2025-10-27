@@ -1,14 +1,19 @@
 #include <iostream>
+#include <windows.h>
 #include "box.h"
 #include "point.h"
 #include "circle.h"
 #include "person.h"
 #include "building.h"
+#include "color.h"
+#include "nvtest.h"
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
+    //设置文本颜色为红色
+    navis::setColor(FOREGROUND_RED | FOREGROUND_INTENSITY);
     cout << "Joystick started." << endl;
     // // Box *b = new Box;
     // // b->setName("BBox");
@@ -52,8 +57,14 @@ int main(int argc, char const *argv[])
     // p.showPerson();
     // // 常对象只能调用常函数，因为普通函数有可能会修改成员属性，
     // //p.func();
-    
+    //设置文本颜色为绿色
+    navis::setColor(FOREGROUND_GREEN | FOREGROUND_INTENSITY);
     test05();
+    //恢复文本颜色
+    navis::setColor(FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE);
+
+    //测试字符串
+    navis::test();
     return 0;
 }
 
