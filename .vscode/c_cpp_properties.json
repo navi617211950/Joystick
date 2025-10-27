@@ -5,19 +5,19 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
-                "D:/Coding/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++",
-                "D:/Coding/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32",
-                "D:/Coding/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward",
-                "D:/Coding/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include",
-                "D:/Coding/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed",
-                "D:/Coding/Qt/Tools/mingw810_32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"
+                "D:/Coding/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++",
+                "D:/Coding/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32",
+                "D:/Coding/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward",
+                "D:/Coding/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+                "D:/Coding/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed",
+                "D:/Coding/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "D:/Coding/Qt/Tools/mingw810_32/bin/g++.exe",
+            "compilerPath": "D:/Coding/mingw64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x86"

@@ -53,7 +53,7 @@ int main(int argc, char const *argv[])
     // // 常对象只能调用常函数，因为普通函数有可能会修改成员属性，
     // //p.func();
     
-    test06();
+    test05();
     return 0;
 }
 

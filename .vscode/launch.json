@@ -8,11 +8,11 @@
             "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:/Coding/Qt/Tools/mingw810_32/bin",
+            "cwd": "D:/Coding/mingw64/bin",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Coding\\Qt\\Tools\\mingw810_32\\bin\\gdb.exe",
+            "miDebuggerPath": "D:\\Coding\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
