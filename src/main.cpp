@@ -47,13 +47,13 @@ int main(int argc, char const *argv[])
     // n->showPersonAge();
 
 
-    const ConstTestPerson p;
-    p.m_boll = 200;
-    p.showPerson();
-    // 常对象只能调用常函数，因为普通函数有可能会修改成员属性，
-    //p.func();
+    // const ConstTestPerson p;
+    // p.m_boll = 200;
+    // p.showPerson();
+    // // 常对象只能调用常函数，因为普通函数有可能会修改成员属性，
+    // //p.func();
     
-    test01();
+    test06();
     return 0;
 }
 
