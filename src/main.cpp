@@ -7,6 +7,7 @@
 #include "building.h"
 #include "color.h"
 #include "nvtest.h"
+#include "testfathor.h"
 
 using namespace std;
 
@@ -59,12 +60,21 @@ int main(int argc, char const *argv[])
     // //p.func();
     //设置文本颜色为绿色
     navis::setColor(FOREGROUND_GREEN | FOREGROUND_INTENSITY);
-    test05();
+    //test05();
     //恢复文本颜色
     navis::setColor(FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE);
 
     //测试字符串
-    navis::test();
+    //navis::test();
+
+    //继承测试
+    //testfathor::test();
+
+    //多继承
+    //doublefather::test();
+
+    //菱形继承测试
+    damianl::test();
     return 0;
 }
 

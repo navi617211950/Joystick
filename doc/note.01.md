@@ -237,7 +237,7 @@ class ConstTestPerson
         }
     ```
 
-* 成员函数做友元
+* 成员函数做友元(友元的类和函数都需要提前声明，否则可能会报错)
 
     ```
         #include <iostream>
