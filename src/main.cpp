@@ -8,6 +8,7 @@
 #include "color.h"
 #include "nvtest.h"
 #include "testfathor.h"
+#include "polymorphism.h"
 
 using namespace std;
 
@@ -74,7 +75,10 @@ int main(int argc, char const *argv[])
     //doublefather::test();
 
     //菱形继承测试
-    damianl::test();
+    //damianl::test();
+
+    //多态的测试
+    polymorphism::test();
     return 0;
 }
 
