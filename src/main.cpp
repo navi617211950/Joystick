@@ -9,6 +9,7 @@
 #include "nvtest.h"
 #include "testfathor.h"
 #include "polymorphism.h"
+#include "testfile.h"
 
 using namespace std;
 
@@ -78,7 +79,10 @@ int main(int argc, char const *argv[])
     //damianl::test();
 
     //多态的测试
-    polymorphism::test();
+    //polymorphism::test();
+
+    //测试文件读写
+    testfile::testFile();
     return 0;
 }
 

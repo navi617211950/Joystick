@@ -8,7 +8,7 @@
             "program": "${workspaceFolder}\\build\\${workspaceFolderBasename}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:/Coding/mingw64/bin",
+            "cwd": "${workspaceFolder}/build", // 目标的工作目录
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
