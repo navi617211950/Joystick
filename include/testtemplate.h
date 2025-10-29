@@ -16,12 +16,13 @@ namespace methodtemplate
     /// @tparam T 模板类
     /// @param t1 参数1
     /// @param t2 参数2
-    template <typename T>
-    void swapParam(T &t1, T &t2)
+    template <typename T, typename U>
+    void swapParam(T &t1, T &t2, const U &u)
     {
         T temp = t1;
         t1 = t2;
         t2 = temp;
+        cout << u << endl;
     }
 
     void test()
@@ -30,13 +31,18 @@ namespace methodtemplate
         int b = 5;
         // 两种使用函数模板的方式
         // 1. 类型自动推导
-        swapParam(a, b);
+        swapParam(a, b, "int");
         cout << "a = " << a << ", b = " << b << endl;
         double c = 4.5;
         double f = 3.4;
         // 2. 显式指定类型
-        swapParam<double>(c, f);
+        swapParam<double, const char *>(c, f, "double");
         cout << "c = " << c << ", f = " << f << endl;
+
+        string s1 = " World!";
+        string s2 = "Hello";
+        swapParam(s1, s2, "string");
+        cout << s1 << s2 << endl;
     }
 
 } // namespace methodtemplate

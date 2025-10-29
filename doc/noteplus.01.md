@@ -23,7 +23,7 @@
 
 语法:
 ```
-template<typename T>
+template<typename|class T>
 函数声明或定义
 ```
 
