@@ -11,5 +11,5 @@ void Box::setName(string p_name)
 }
 
 void Box::sayHi(){
-    cout << "Hi from " << name << endl;
+    cout << "Hi from Joystick" << name << endl;
 }
